@@ -2,19 +2,19 @@
 Index
 
 aliens-hangman:&emsp;         html-css-js<br />
-bamazon:                node.js-sql                    run 'npm install'
-basic-portfolio:        html-css
-bootstrap-portfolio:    html-css
-eat-da-burger-node:     node.js-sql-handlebars         run 'npm install'
-eat-da-burger-sequel:   node.js-sequelize-handlebars   run 'npm install'
-flashcard-generator:    node.js                        
-friend-finder:          node.js                        run 'npm install'
-giphy-api:              html-css-jquery
-hot-restaurant:         node.js
-liri-node-app:          node.js
-mongo-scraper:          node.js-mongo-handlebars       run 'npm install'
-responsive-portfolio:   html-css
-rps-multiplayer:        html-css-js-firebase
-simple-rpg:             html-css-jquery
-train-scheduler:        html-css-js-firebase
-trivia-game:            html-css-js
+bamazon:&emsp;                node.js-sql&emsp;                    run 'npm install'<br />
+basic-portfolio:&emsp;        html-css<br />
+bootstrap-portfolio:&emsp;    html-css<br />
+eat-da-burger-node:&emsp;     node.js-sql-handlebars&emsp;         run 'npm install'<br />
+eat-da-burger-sequel:&emsp;   node.js-sequelize-handlebars&emsp;   run 'npm install'<br />
+flashcard-generator:&emsp;    node.js<br />                      
+friend-finder:&emsp;          node.js&emsp;                        run 'npm install'<br />
+giphy-api:&emsp;              html-css-jquery<br />
+hot-restaurant:&emsp;         node.js<br />
+liri-node-app:&emsp;          node.js<br />
+mongo-scraper:&emsp;          node.js-mongo-handlebars&emsp;       run 'npm install'<br />
+responsive-portfolio:&emsp;   html-css<br />
+rps-multiplayer:&emsp;        html-css-js-firebase<br />
+simple-rpg:&emsp;             html-css-jquery<br />
+train-scheduler:&emsp;        html-css-js-firebase<br />
+trivia-game:&emsp;            html-css-js<br />
