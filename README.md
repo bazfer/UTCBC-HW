@@ -7,6 +7,9 @@ Index
 <th>Focus</th>
 <th>Comments</th>
 </tr>
+<tr>
+<td>aliens-hangman</td>
+<tr>
 </table>
 
 aliens-hangman html-css-js<br />
