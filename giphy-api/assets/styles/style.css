@@ -1,0 +1,37 @@
+#addInputCont {
+
+	display: inline-block;
+	width: 50%;
+	margin-top: 40px;
+	
+}
+
+#buttonsCont {
+	margin-top: 40px;
+}
+
+#title, #textCont {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.container, #gifsCont {
+
+	text-align: center;
+}
+
+.text {
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	font-size: large;
+}
+
+.gifWrapper, .rating {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.gifBt {
+	margin-top: 10px;
+}

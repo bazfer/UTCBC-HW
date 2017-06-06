@@ -1,0 +1,55 @@
+{"basic": {
+      "001": {
+            "front": "Cubic zirconia is a synthesized material often used in place of what precious stone?",
+            "back": "Diamond"
+      },
+      "002": {
+            "front": "In what year did the Titanic sink?",
+            "back": "1912"
+
+      },
+      "003": {
+            "front": "What sunglasses did Tom Cruise where in the 1986 movie 'Top Gun'?",
+            "back": "Ray Ban Aviator (RB 3025)"
+
+      },
+      "004": {
+            "front": "How many Olympic Games have been hosted in Africa?",
+            "back": "Zero"
+
+      },
+      "005": {
+            "front": "What takes an average of 8 minutes 20 seconds to reach the Earth?",
+            "back": "Sunlight"
+
+      }
+},
+
+"clozed": {
+      "001": {
+            "front": "... is a synthesized material often used in place of diamond.",
+
+            "back": "Cubic zirconia"
+      },
+      "002": {
+            "front": "The Titanic sank in the year of ... .",
+            "back": "1912"
+
+      },
+      "003": {
+            "front": "Tom Cruise wore ... sunglasses in the 1986 movie 'Top Gun'.",
+            "back": "Ray Ban Aviator (RB 3025)"
+
+      },
+      "004": {
+            "front": "... Olympic Games have been hosted in Africa.",
+            "back": "Zero"
+
+      },
+      "005": {
+            "front": "... takes an average of 8 minutes 20 seconds to reach the Earth.",
+            "back": "Sunlight"
+
+      }
+}
+}

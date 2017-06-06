@@ -1,0 +1,22 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "this is a school proj",
+  "main": "liri.js",
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bazfer/liri-node-app.git"
+  },
+  "keywords": [
+    "school"
+  ],
+  "author": "fb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bazfer/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/bazfer/liri-node-app#readme"
+}

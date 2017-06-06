@@ -1,0 +1,69 @@
+.char {
+	display: inline-block;
+	margin: 20px;
+}
+
+.opp {
+	display: inline-block;
+	margin: 20px;
+}
+
+.currOpp {
+	display: inline-block;
+}
+
+#charCont {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#oppCont {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#infoCont {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#currentOpp {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.text {
+	margin-top: 1px;
+	color: #fede71;
+	font-size: small;
+}
+
+#attackBt {
+	text-align: center;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	margin-top: 0px;
+	background-color: #fede71;
+	color: black;
+	border-radius: 10px;
+	clear: left;
+	margin: 20px;
+	padding: 2px;
+}
+
+#restartBt {
+	text-align: center;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	margin-top: 0px;
+	background-color: #fede71;
+	color: black;
+	border-radius: 10px;
+	clear: left;
+	margin: 20px;
+	padding: 2px;
+}
+
+#

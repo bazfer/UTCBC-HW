@@ -1,0 +1,30 @@
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Mongo Scraper</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="/scrape">Scrape!</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="wrapper flex-grid">
+  <div id="articles-wrapper" class="flex-col">
+    <h5>Scraped Articles</h5>
+    <ul id="articles-list">
+      {{#each articles}}
+      <div class='flex-grid'>
+      <button class="waves-effect waves-light btn col-1-20" id="deletearticle" data-id={{this._id}}>X</button>
+        <li class="col-19-20" data-id={{this._id}}>
+            <h6>{{this.title}}</h6>
+            <a href={{this.link}}>{{this.link}}</a>
+        </li>
+      </div>
+      {{/each}}
+    </ul>
+  </div>
+  <div id="notes-wrapper" class="flex-col">
+    <h5>Notes</h5>
+    <div id="notes">
+      <p>Click on an article to view and/or add notes</p>
+    </div>
+  </div>
+</div>

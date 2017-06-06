@@ -1,0 +1,454 @@
+/* OVERARCHING STYLES */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;
+}
+
+h1 {
+	color: #4aaaa5;
+	font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+p {
+	line-height: 150%;
+	color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: justify;
+}
+
+span {
+	line-height: 150%;
+	color: #fff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+img {
+	z-index: -1;
+}
+
+/* MY NAME TITLE TAB */
+
+.headerArea {
+	position: relative;
+	overflow: auto;
+	top: 0px;
+}
+
+.myName {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px 30px;
+	float: left;
+	width: 230px;
+	margin: 0px 0px 0px 55px;
+}
+
+.myName h1 {
+	color: #ffffff;
+}
+
+/* LINKS CONTAINER */
+
+.links {
+	float: right;
+	padding: 20px;
+	margin: 0px 200px 0px 0px;
+}
+
+/* LINKS LIST */
+
+.links ul{
+	list-style-type: none;
+}
+
+.links li {
+	display: inline;
+}
+
+ul li:hover { 
+	color: #ffffff;
+	text-decoration: underline;
+ }
+
+.links li:not(:first-child):before {
+	content: " | ";
+	padding: 20px;
+	color: #cccccc;
+}
+
+.links a {
+	color: #777777;
+	text-decoration: none;
+
+}
+
+/* MAIN CONTENT AREA */
+
+.mainArea {
+	background-image: url("../images/subtle_white_mini_waves.png");
+	height: 100%;
+	width: 960px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #bbb;
+	position: relative;
+	overflow: auto;
+}
+
+/* CONTENT CONTAINER */
+
+.content {
+	background-color: #ffffff;
+	height: auto;
+	width: 50%;
+	padding: 20px 30px;
+	margin: 30px 0px 30px 55px;
+	float: left;
+	
+}
+
+.sep1 {
+	height: 2px;
+	width: 100%;
+	align-content: center;
+	background-color: #ccc;
+	margin-bottom: 30px;
+}	
+
+#myPhoto {
+	float:left;
+	padding: 0px 10px 2px 0px;
+}
+
+/* EXCLUSIVE TO PORTFOLIO */
+
+#portGal {
+	margin-left: 10px;
+}
+
+.photoContainer {
+   border: 1px solid #DDDDDD;
+   width: 220px;
+   height: 160px;
+   position: relative;
+   float: left;
+   margin: 0px 10px 10px 0px;
+}
+
+.tag {
+   float: left;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   z-index: 1000;
+   background-color: #4aaaa5;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+   margin-top: 113px;
+   width: 95.75%;
+   height: 42px;
+}
+
+/* EXCLUSIVE TO CONTACT */
+
+.inputTitle {
+	line-height: 150%;
+	color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input {
+	width: 100%;
+}
+
+#inputMsg {
+	height: 200px;
+}
+
+.inputBox{
+	color: #ccc;
+}
+
+/* CONNECT CONTAINER*/
+
+.connect {
+	width: auto;
+	float: right;
+	background-color: #fff;
+	padding: 0px 30px 0px 30px;
+	margin: 30px 100px 0px 0px;
+}
+
+.connect h2 {
+	color: #4aaaa5;
+}
+
+.icon {
+	padding: 0px 5px 25px 5px;
+}
+
+.connect img:hover {
+	opacity: 0.6;
+}
+
+/* FOOTER */
+
+.sep2{
+	height: 5px;
+	width: 960px;
+	background-color: #4aaaa5;
+}
+
+footer{
+	background-color: #777;
+	width: 960px;
+}
+
+.copyright {
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	font-size: small;
+}
+
+@media screen and (max-width: 980px) {
+
+
+	.mainArea {
+		width: 100%;
+	}
+
+	#myPhoto {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 20px;
+	}
+
+	.links {
+		margin-right: 55px;
+		padding-top: 40px;
+	}
+
+	.myName {
+		width: 25%;
+		margin-left: 75px;
+	}
+
+	.myName h1 {
+		text-align: center;
+		
+	}
+
+	.connect {
+		margin-right: 75px;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	.sep2 {
+		width: 100%;
+	}
+
+/* FOR PORTFOLIO */
+
+	.photoContainer {
+		float: none;
+		margin-bottom: 20px;
+		width: 100%;
+		height: 100%;
+		border: 0px solid;
+	}
+
+	.photoContainer img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.content {
+		width: 50%;
+		margin-left: 75px;
+	}
+
+	.tag {
+		margin-top: 219px;
+		height: 91px;
+		width: 98%;
+	}
+
+	#portGal {
+		margin-left: 0px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.connect {
+		clear: both;
+		float: left;
+		margin: 0px 0px 20px 20px;
+		width: 87.35%;
+	}
+
+	.content {
+		width: 90%;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		padding: 20px 20px;
+	}
+
+	.myName h1 {
+		text-align: center;
+	}
+
+	.myName {
+		margin-left: 20px;
+		width: 30%;
+	}
+
+	.links {
+		margin-top: 20px;
+		margin-right: 0px;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	#myPhoto {
+		width: 220px;
+		height: 165px;
+		padding-bottom: 0px;
+	}
+
+	/* FOR PORTFOLIO */
+
+	.photoContainer {
+		width: 46%;
+		height: auto;
+		float: left;
+		margin-right: 50px;
+		
+		margin-bottom: 10px;
+		padding-bottom: 0px;
+		border: 0px solid;
+	}
+
+	.photoContainer img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.evenPhoto {
+		margin-right: 0px;
+	}
+
+	
+
+	.tag {
+		margin-top: 159px;
+		height: 62px;
+		width: 97%;
+	}
+
+	#portGal {
+		margin-left: 0px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	.connect {
+		clear: both;
+		float: left;
+		margin: 20px;
+		width: 84%;
+	}
+
+	.content {
+		margin-top: 20px;
+		margin-bottom: 0px;
+		width: 87%;
+	}
+
+	.myName {
+		width: 100%;
+		margin-left: 0px;
+		padding: 10px 0px;
+	}
+
+	.myName h1 {
+		text-align: center;
+
+	}
+
+	.links {
+		margin-left: 100px;
+		padding: 100px 0px 20px 0px;
+		float: none;
+	}
+
+	.links li:not(:first-child):before {
+		content: " | ";
+		padding: 65px;
+		color: #cccccc;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	#myPhoto {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 20px;
+	}
+
+	/* FOR PORTFOLIO */
+
+	.photoContainer {
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-right: 50px;
+		margin-bottom: 30px;
+		padding-bottom: 0px;
+		border: 0px solid;
+	}
+
+	.photoContainer img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.evenPhoto {
+		margin-right: 0px;
+	}
+
+
+
+	.tag {
+		margin-top: 260px;
+		height: 120px;
+		width: 98.2%;
+	}
+
+	#portGal {
+		margin-left: 0px;
+	}
+
+}
+

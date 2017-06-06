@@ -1,0 +1,30 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "homework app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bazfer/Eat-Da-Burger.git"
+  },
+  "author": "Fernando Baz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bazfer/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/bazfer/Eat-Da-Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mysql": "^2.13.0",
+    "pg": "4.x",
+    "sequelize": "^3.30.2"
+  },
+  "devDependencies": {}
+}

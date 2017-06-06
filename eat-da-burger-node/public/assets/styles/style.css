@@ -1,0 +1,11 @@
+.outer {
+    text-align: center;
+}
+
+.innter {
+    display: inline-block;
+}
+
+.in-block {
+    display: inline-block
+}

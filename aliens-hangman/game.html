@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/styles/darkly.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+</head>
+<body>
+	
+
+	<div class="container">
+		<!--TITLE-->
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-6">
+				<h1 class="instructions">What is the last name of this absolutely badass?</h1>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+		<!--IMAGE-->
+		<div class="row">
+			<div class="col-md-3 guesses" id="wordWrapper">
+				<div><p>Guesses Left</p></div>
+				<div id="guessesContainer"></div>
+			</div>
+			<div class="col-md-6" >
+				<div class="imageCont" id="imageContainer"></div>
+			</div>
+			<div class="col-md-3 guessed" id="wordWrapper">
+				<div><p>Already Typed Characters</p></div>
+				<div id="alreadyGuessed"></div>
+			</div>
+		</div>
+		<!--WORD-->
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-12" id="wordWrapper">
+				<div id="wordContainer"></div>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+
+	</div>
+	
+
+
+
+
+	<script type="text/javascript" src="assets/scripts/game.js">
+
+	</script>
+
+	
+</body>
+</html>

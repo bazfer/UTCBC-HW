@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>View Reservations</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1><span class="glyphicon glyphicon-fire"></span>Hot Restaurant</h1>
+      <h3>Current Reservations and Waiting List</h3>
+      <hr>
+      <a href="/reserve"><button type="button" class="btn btn-danger btn-lg" id="reserve"><span class="glyphicon glyphicon-plus"></span> Make Reservation</button></a>
+      <a href="/"><button type="button" class="btn btn-danger btn-lg" id="home"><span class="glyphicon glyphicon-home"></span></button></a>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>Current Reservations</strong></h3>
+          </div>
+          <div class="panel-body" id="table-section">
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>Waiting List</strong></h3>
+          </div>
+          <div class="panel-body" id="waiting-section">
+          </div>
+        </div>
+        <div class="linksAtBottom">
+          Control Panel
+          <br>
+          <!--Link to API Table-->
+          <a href="/api/tables">API Table Link </a>|
+          <!--Link to API Wait List-->
+          <a href="/api/waiting">API Wait List</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    function createWells(res, sec) {
+      if( sec === "tables"){
+        
+        for (let i = 0; i < res.length; i++) {
+          
+          let well = $("<div class = 'well' id = 'tableWell-" + i + "'></div>");
+          let wellText = $("<h2><span class = 'label label-primary'>" + res[i].id + "</span></h2>")
+          
+          well.append(wellText)
+          $("#table-section").append(well)
+          
+          
+        }
+      } else if( sec === "waiting"){
+        console.log(res)
+        for (let i = 0; i < res.length; i++) {
+          let well = $("<div class = 'well' id = 'tableWell-" + i + "'>");
+          let wellText = $("<h2><span class = 'label label-primary'>" + res[i].id + "</span></h2>")
+
+          well.append(wellText)
+          $("#waiting-section").append(well)
+        }
+      }
+    }
+
+   
+
+
+    function init() {
+     
+        $.ajax({
+          url: "/api/waiting",
+          method: "GET"
+        }).then(function (res) {
+          let sec = "waiting"
+          createWells(res, sec)
+        }, function (err) {
+          console.log(err)
+        })
+     
+        $.ajax({
+          url: "/api/tables",
+          method: "GET"
+        }).then(function (res) {
+          let sec = "tables"
+          createWells(res, sec)
+        }, function (err) {
+          console.log(err)
+        })
+      
+    }
+
+    window.onload = function () {
+      init();
+    }
+  </script>
+</body>
+
+</html>

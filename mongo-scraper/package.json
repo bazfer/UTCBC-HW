@@ -1,0 +1,29 @@
+{
+  "name": "mongo_scraper",
+  "version": "1.0.0",
+  "description": "week 18 UTCBC HW",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bazfer/mongoScraper.git"
+  },
+  "author": "Fernando Baz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bazfer/mongoScraper/issues"
+  },
+  "homepage": "https://github.com/bazfer/mongoScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.2",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0"
+  }
+}

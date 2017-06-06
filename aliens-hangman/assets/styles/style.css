@@ -1,0 +1,60 @@
+.letter, .alreadyUl {
+	float: left;
+	display: inline;
+	padding: 10px;
+}
+
+.alreadyLi {
+	float: left;
+	display: inline;
+	padding: 5px;
+}
+
+.instructions {
+	text-align: center;
+	padding: 50px;
+}
+
+#imageContainer {
+	padding: 50px;
+}
+
+#currentImage{
+	display:block;
+    margin:auto;
+}
+
+#wordWrapper {
+	text-align: center;
+}
+
+#wordContainer {
+	display: inline-block;
+}
+
+#word {
+	padding-left: 0;
+}
+
+.guessed, .guesses {
+	margin-top: 120px;
+	display: inline-block;
+}
+
+.question {
+	margin-top: 20%;
+	padding: 50px;
+}
+
+#guessesContainer {
+	font-size: 32px;
+}
+
+#endImage {
+	width: 1280px;
+	height: 800px;
+}
+
+#endText {
+	text-align: center;
+}

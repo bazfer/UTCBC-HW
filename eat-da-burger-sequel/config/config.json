@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "root",
+        "password": null,
+        "database": "burgers_db",
+        "host": "localhost",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "database_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "bed83152c41755",
+        "password": "7960fcec",
+        "database": "heroku_95fa0c4b90a28f6",
+        "host": "us-cdbr-iron-east-04.cleardb.net",
+        "dialect": "mysql"
+    }
+}

@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col s12 offset-s4">
+        <h1> Eat-Da-Burger! </h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col s4 outer">
+        <div class="inner">
+            <h5>Fresh from the Grill</h5>
+            <ul class="burger-list">
+                {{#each burgers}} {{#unless this.devoured}}
+                <li>
+                    <p class = "in-block">{{this.burger_name}}</p>
+                    <form action="/{{this.id}}?_method=PUT" method="POST" class = "in-block">
+                        <button type="submit" class = "in-block">Eat Me</button>
+                    </form>
+                </li>
+                {{/unless}} {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div class="col s4 outer">
+        <div class="inner">
+            <img src="/assets/images/burger-header.jpg" alt="burger">
+            <form class="create-update-form" action="/" method="POST">
+                <div class="form-group">
+                    <input type="text" id="brgr" name="burger_name" placeholder="Royale with Cheese">
+                    <label for="brgr"> Create a burger you want to eat and click </label>
+                    <button type="submit"> submit </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col s4 outer">
+        <div class="inner">
+            <h5>Already Devoured</h5>
+            <ul>
+                {{#each burgers}} {{#if this.devoured}}
+                <li>
+                    {{this.burger_name}}
+                </li>
+                {{/if}} {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>

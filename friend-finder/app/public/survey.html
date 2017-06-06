@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/png" href="../assets/epq-favicon.png"/>
+    <meta charset="UTF-8">
+    <title>
+        Survey
+    </title>
+    <!--BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--MATERALIZE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!--CUSTOM CSS-->
+    <style>
+        .results {
+            width: 100%;
+            text-align: center;
+        }
+
+        #modal-result {
+            display: inline-block;
+        }
+
+        #modal-img {
+            display: inline-block;
+        }
+    </style>
+    <!--<link rel="stylesheet" type="text/css" href="assets/styles/style.css">-->
+</head>
+
+<body>
+    <div class="container">
+        <h2>Extremely Personal Questionnaire</h2>
+        <hr>
+        <h4><strong>First: About You</strong></h4>
+        <h5>Name</h5>
+        <input type="text" name id="name" class="form-control" required>
+        <h5>Link to Photo Image</h5>
+        <input type="text" name id="photo" class="form-control" required>
+        <br>
+        <h3>The Questions </h3>
+        <h5>Q1: How stinky are your feet?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q1">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">They reek</option>
+                <option value="4">Yummy cheese aroma</option>
+                <option value="3">They are like The Void - odorless</option>
+                <option value="2">I use baby powder everyday to be a part of society</option>
+                <option value="1">My sex slave washes my feet three times a day</option>
+            </select>
+        </div>
+        <h5>Q2: How many rolls of toilet paper do you use per week?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q2">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">Three or more - my digestion is my biggest asset</option>
+                <option value="4">Two - granola helps me stay regular</option>
+                <option value="3">One? </option>
+                <option value="2">One roll lasts me two weeks and sometimes it hurts</option>
+                <option value="1">Can't remember the last time I pooped</option>
+            </select>
+        </div>
+        <h5>Q3: What do you do with your clipped toenails?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q3">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">Save them for a rainy day</option>
+                <option value="4">Nib at them before tossing them away</option>
+                <option value="3">Neatly place them on the coffee table</option>
+                <option value="2">Let them fall directly in the trash bin</option>
+                <option value="1">Who clips their toenails? Crazy talk</option>
+            </select>
+        </div>
+        <h5>Q4: How does your piss smell like after eating asparragus?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q4">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">Like albacore tuna juice</option>
+                <option value="4">I do not partake in the eating of asparragus</option>
+                <option value="3">Like sulfur-containing chemicals - obviously</option>
+                <option value="2">Why are you talking about piss?</option>
+                <option value="1">Like piss - obviously</option>
+            </select>
+        </div>
+        <h5>Q5: After finally being able to get that large piece of stringy meat off your teeth, what do you do with it?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q5">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">Flick it off</option>
+                <option value="4">Eat it</option>
+                <option value="3">Announce to the company the size of your conquer, going into detail about how you went about it</option>
+                <option value="2">Secretly feed it to the nearest dog - you have a bond with this animal now</option>
+                <option value="1">Why would you want to remove that piece of meat? Let it stay there: it will provide persistent flavor for weeks and weeks.</option>
+            </select>
+        </div>
+         <h5>Q6: What do you regret?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q6">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">I regret everything.</option>
+                <option value="4">Not following my dreams.</option>
+                <option value="3">All the times I chickened out.</option>
+                <option value="2">My first sexual intercourse.</option>
+                <option value="1">I regret nothing.</option>
+            </select>
+        </div>
+        <h5>Q7: What is the best way to clear the sinuses?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q7">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">While taking a shower.</option>
+                <option value="4">Soccer player style - planet-consciously snorting them out. No trees died today.</option>
+                <option value="3">Once nearly died using a neti pot.</option>
+                <option value="2">Thanks to yoga and the sauna I am always clear.</option>
+                <option value="1">I carry boxes of Kleenex in my car - I'malways prepared.</option>
+            </select>
+        </div>
+        <h5>Q8: When nature calls but you are having a fine dinner at your boss's house, what do you do to cover up each explosive fart that comes ot of your butt?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q8">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">Turn the sink water on - full blast</option>
+                <option value="4">I poop eagle-style to avoid the wave amplification effect of the toilet bowl</option>
+                <option value="3">I scream as loud as I can the whole time I'm there. So far, nobody has noticed. </option>
+                <option value="2">Look for a hairdrier and turn it on. </option>
+                <option value="1">I just let myself go.</option>
+            </select>
+        </div>
+        <h5>Q9: Do you talk over other people?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q9">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">My mum always told me "son, you are going to be a great lawyer."</option>
+                <option value="4">I will run you over like snowplow.</option>
+                <option value="3">Not anymore.</option>
+                <option value="2">Yes, but to anticipate as a form of empathy.</option>
+                <option value="1">In the absence of alcohol I am I deep practicioner of active listening.</option>
+            </select>
+        </div>
+          <h5>Q10: How good are you at picking your nose?</h5>
+        <div class="input-field col s12">
+            <select data-placeholder id="q10">
+                <option value="" disabled selected>Choose your Option</option>
+                <option value="5">Jöaquim Lowe has nothing on me.</option>
+                <option value="4">I only do it when I'm driving, I swear.</option>
+                <option value="3">My fingers and my nose are well acquainted.</option>
+                <option value="2">Eww.</option>
+                <option value="1">The hand is the most complex mechanism ever. I put it to good use.</option>
+            </select>
+        </div>
+        
+        <button type="submit" class="waves-effect waves-light btn" id="submit-1">Submit</button>
+        <!-- Materialize Modals
+        // ************************************************************ -->
+        <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h5>Your dream match is...</h5><br><br>
+                <div class="results">
+                <h3 id="modal-result"></h3><br>
+                <img id="modal-img" src="" alt="" width="auto" height="auto">
+                </div>
+            </div>
+            <div class="modal-footer">
+      <a href="/" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+        </div>
+    </div>
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--MATERIALIZE JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    
+    <!--CUSTOM JS-->
+    <script type="text/javascript">
+        // Materialize Selectors
+        // ************************************************************
+        $(document).ready(function () {
+            $('select').material_select();
+            $('.modal').modal();
+        });
+
+        // Capture Answers
+        // ************************************************************
+        function Person(name, photo, answers) {
+            this.name = name;
+            this.photo = photo;
+            this.answers = answers;
+        }
+        // event listener
+        $("#submit-1").on("click", function (event) {
+            event.preventDefault();
+            let name = $("#name").val().trim();
+            let photo = $("#photo").val().trim();
+            let answers = [];
+            // loop through questions
+            for (let i = 0; i <= 9; i++) {
+                let q = $("#q" + (i + 1) + " option:selected").attr("value");
+                answers.push(q);
+            }
+            // create and send object
+            var person = new Person(name, photo, answers)
+            $.post("/api/new", person)
+                .done(function (data) {
+                    console.log(data.photo);
+                    $("#modal-result").html(data.name);
+                    $("#modal-img").attr("src", data.photo);
+                    $("#modal-img").attr("alt", data.name);
+                    $("#modal1").modal("open");
+                });
+        });
+    </script>
+
+</body>
+
+    <!--<footer class="footer">
+    <div class="container">
+        <br><br>
+        <p>
+            <a href="/api/friends">API Friends List</a>
+            <span> | </span>
+            <a id="github" href="https://github.com/bazfer/friendFinder">GitHub Repo</a>
+        </p>
+    </div>
+</footer>-->
+
+</html>
