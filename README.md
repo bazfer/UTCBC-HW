@@ -1,7 +1,7 @@
 # Code for all of the University of Texas Coding Bootcamp 2016-2017 Homework Assignments
 
 # Description
-This is a repo to hold all of the code I wrote to complete the homework assignments during the University of Texas Coding Bootcamp in 2016-2017
+This is a repo to hold all of the code I wrote to complete the homework assignments during the University of Texas Coding Bootcamp in 2016-2017. If indicated, run 'npm install' to install node-modules to be able to use the application.
 
 ## Index
 | Project              | Focus       | Comments         |
