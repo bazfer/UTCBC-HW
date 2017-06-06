@@ -2,12 +2,12 @@
 Index
 
 aliens-hangman:&emsp;         html-css-js<br />
-bamazon:&emsp;                node.js-sql&emsp;                    run 'npm install'<br />
+bamazon:&emsp;&emsp;                  node.js-sql&emsp;                    run 'npm install'<br />
 basic-portfolio:&emsp;        html-css<br />
 bootstrap-portfolio:&emsp;    html-css<br />
 eat-da-burger-node:&emsp;     node.js-sql-handlebars&emsp;         run 'npm install'<br />
 eat-da-burger-sequel:&emsp;   node.js-sequelize-handlebars&emsp;   run 'npm install'<br />
-flashcard-generator:&emsp;    node.js<br />                      
+flashcard-generator:&emsp;    node.js<br />                    
 friend-finder:&emsp;          node.js&emsp;                        run 'npm install'<br />
 giphy-api:&emsp;              html-css-jquery<br />
 hot-restaurant:&emsp;         node.js<br />
