@@ -7,6 +7,7 @@ Index
 <th>Focus</th>
 <th>Comments</th>
 </tr>
+</table>
 
 aliens-hangman html-css-js<br />
 bamazon:&emsp;&emsp;&emsp;node.js-sql&emsp;run 'npm install'<br />
