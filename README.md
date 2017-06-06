@@ -1,6 +1,13 @@
 # Code for all of the University of Texas Coding Bootcamp 2016-2017 Homework Assignments
 Index
 
+<table style="width:100%>
+<tr>
+<th>Project</th>
+<th>Focus</th>
+<th>Comments</th>
+</tr>
+
 aliens-hangman html-css-js<br />
 bamazon:&emsp;&emsp;&emsp;node.js-sql&emsp;run 'npm install'<br />
 basic-portfolio:&emsp;html-css<br />
