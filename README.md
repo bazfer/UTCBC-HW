@@ -2,7 +2,7 @@
 Index
 
 aliens-hangman:&emsp;         html-css-js<br />
-bamazon:&emsp;&emsp;                  node.js-sql&emsp;                    run 'npm install'<br />
+bamazon:&emsp;&emsp;&emsp;                    node.js-sql&emsp;                    run 'npm install'<br />
 basic-portfolio:&emsp;        html-css<br />
 bootstrap-portfolio:&emsp;    html-css<br />
 eat-da-burger-node:&emsp;     node.js-sql-handlebars&emsp;         run 'npm install'<br />
