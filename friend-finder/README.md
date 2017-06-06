@@ -1,2 +1,0 @@
-# friendFinder
-repo for friendFinder
