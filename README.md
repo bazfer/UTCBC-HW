@@ -1,17 +1,9 @@
 # Code for all of the University of Texas Coding Bootcamp 2016-2017 Homework Assignments
-Index
 
-<table style="width:100%>
-<tr>
-<th>Project</th>
-<th>Focus</th>
-<th>Comments</th>
-</tr>
-<tr>
-<td>aliens-hangman</td>
-<tr>
-</table>
+# Product Name
+This is a repo to hold all of the code I wrote to complete the homework assignments during the University of Texas Coding Bootcamp in 2016-2017
 
+## Index
 aliens-hangman html-css-js<br />
 bamazon:&emsp;&emsp;&emsp;node.js-sql&emsp;run 'npm install'<br />
 basic-portfolio:&emsp;html-css<br />
