@@ -4,8 +4,10 @@
 This is a repo to hold all of the code I wrote to complete the homework assignments during the University of Texas Coding Bootcamp in 2016-2017
 
 ## Index
-aliens-hangman html-css-js<br />
-bamazon:&emsp;&emsp;&emsp;node.js-sql&emsp;run 'npm install'<br />
+aliens-hangman 
+  html-css-js
+bamazon
+  node.js-sql (run 'npm install')
 basic-portfolio:&emsp;html-css<br />
 bootstrap-portfolio:&emsp;html-css<br />
 eat-da-burger-node:&emsp;node.js-sql-handlebars&emsp;run 'npm install'<br />
